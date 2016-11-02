@@ -11,11 +11,17 @@ This also won't run across the Tube due to the direct memory access.
 Current issues: -
 
  . Slow
+ 
  . Doesn't have the ability to boot a disc once selected (although I am looking into this) 
+ 
  . Doesn't have the ability to load / run a file once selected (as above)
+ 
  . Forgets which disc you were looking at when it is closed (I am thinking of getting it to store some settings in disc 510)
+ 
  . Won't work over the Tube as it directly accesses the main memory to get the disc info (not sure about this one)
+ 
  . Is a bit flaky when you press Escape - I have implemented JGHarstons excellent PROC / FN error handling code (viewtopic.php?f=2&t=11973#p151694), but not fully I suspect, so when you press Esc in the wrong place it freezes and needs a subtle application of the Break key to get it going again
+ 
  
 Usage is pretty simple - run it and press a key to get past the help screen (press H at any time to toggle back to this).
 Use the up and down arrows to select a disc - keep scrolling down to see more discs.
