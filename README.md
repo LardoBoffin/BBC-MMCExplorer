@@ -20,7 +20,7 @@ Current issues: -
  
  . Won't work over the Tube as it directly accesses the main memory to get the disc info (not sure about this one)
  
- . Is a bit flaky when you press Escape - I have implemented JGHarstons excellent PROC / FN error handling code (viewtopic.php?f=2&t=11973#p151694), but not fully I suspect, so when you press Esc in the wrong place it freezes and needs a subtle application of the Break key to get it going again
+ . Is a bit flaky when you press Escape - I have implemented JGHarstons excellent PROC / FN error handling code (http://stardot.org.uk/forums/viewtopic.php?f=2&t=11973#p151694), but not fully I suspect, so when you press Esc in the wrong place it freezes and needs a subtle application of the Break key to get it going again
  
  
 Usage is pretty simple - run it and press a key to get past the help screen (press H at any time to toggle back to this).
